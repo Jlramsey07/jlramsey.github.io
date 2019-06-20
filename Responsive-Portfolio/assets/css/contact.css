@@ -1,0 +1,118 @@
+h1 {
+    float: left;
+    padding: .5px;
+    background: #4aaaa5;
+    margin-left: 350px;
+    font-family: 'Times New Roman', Times, serif; 
+    margin-bottom: 1px;
+    padding: 20px;
+    
+}
+h2 {
+    color:#4aaaa5;
+}
+div.top {
+    clear:both;
+    background-image: url("dark-grey-terrazzo.png");
+    height: 600px;
+    border:5px solid #dddddd;
+    width: 100%; 
+    color:black;
+    
+}
+
+
+div.form {
+    background-color:#ffffff;
+    margin-left: 25%;
+    display: inline-block;
+    margin-top: 100px;
+    width:43%;
+    padding:10px;
+    border: 5px solid #dddddd;
+
+
+}
+.input { 
+    width: 480px;
+}
+
+
+
+input[type=submit]{
+    background-color:#4aaaa5
+    
+
+}
+input[type=text]{
+    width: 99%;
+}
+
+
+p {
+    font-family: sans-serif;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    height: 50px;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
+}
+h6 {
+    text-align: center;
+  
+    
+}
+
+.Links {
+   float: right;
+   margin-top: 55px;
+   color:black;
+   margin-right: 400px;
+}
+a { 
+    color:#4aaaa5;
+    text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+    /* The body's bg color will be #333 */
+    
+    h1 { 
+        font-size: 15px;
+         position: static;
+         margin-left: 0px;
+         
+         margin-bottom: -10px;
+         
+         
+         
+    
+    }
+  
+   .Links { 
+       float: left;
+       margin-right: 0px;
+       margin-left: 90px;
+       width: 40%;
+      
+       
+   }
+   .text { 
+       font-size: 12px;
+      
+
+  
+
+   
+
+    }
+    .input { 
+        width: 206px;
+    }
+}

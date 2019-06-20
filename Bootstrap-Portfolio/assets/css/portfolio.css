@@ -1,0 +1,90 @@
+h1 {  
+    margin-left: 300px;
+    border: 2px solid #4aaaa4;
+    background-color: #4aaaa4;
+    height: 80px;
+}
+
+
+.form { 
+    margin: auto;
+    margin-top: 40px;
+    border: 5px solid #4aaaa4;
+    height:675px;
+    width: 960px;
+    background-color: whitesmoke;
+}
+h3 {
+    z-index: 2;
+    margin-top: 20%;
+    position: absolute;
+    border: 1px solid #4aaaa5;
+    color: white;
+    background: #4aaaa5;
+    width: 45%;
+}
+
+#row3 { 
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.jamaica1 {
+ font-size: 17px;
+}
+body { 
+    background-image: url("dark-grey-terrazzo.png");
+    height: 900px;
+}
+hr { 
+    width: 80%;
+}
+h2  { 
+    margin-left: 100px;
+    margin-top: 5px;
+    color: black;
+    font-size: 35px;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    height: 50px;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  
+}
+
+@media screen and (max-width: 1000px) {
+    /* The body's bg color will be #333 */
+    
+    h1 { 
+        font-size: 20px;
+         /* Background image will change */
+    
+    }
+    body { 
+        background-image: url("wheat.png")
+    }
+
+    .form { 
+        height: 980px;
+    }
+
+    h3 {
+        z-index: 2;
+        margin-top: 10%;
+        position: absolute;
+        border: 1px solid #4aaaa5;
+        color: white;
+        background: #4aaaa5;
+        width: 22.5%;
+    }
+    /* Animation */
+@keyframes top {
+    from {color: darkblue;}
+    to {color:  orangered;}
+}

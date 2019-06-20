@@ -1,0 +1,155 @@
+h1 {
+    float: left;
+    padding: .5px;
+    background: #4aaaa5;
+    margin-left: 350px;
+    font-family: 'Times New Roman', Times, serif; 
+    margin-bottom: 1px;
+    padding: 20px;
+    
+}
+h2 {
+    color:#4aaaa5;
+}
+div.top {
+    clear:both;
+    background-image: url("dark-grey-terrazzo.png");
+    height: 970px;
+    border:5px solid #dddddd;
+    width: 100%; 
+    color: white;
+    
+}
+
+
+div.form {
+    background-color:#ffffff;
+    margin-left: 25%;
+    display: inline-block;
+    margin-top: 80px;
+    width:43%;
+    padding: 10px;
+    border: 5px solid #dddddd;
+    height: 800px;
+
+
+}
+
+
+
+p {
+    font-family: sans-serif;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    height: 50px;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  
+}
+
+
+.Links {
+   float: right;
+   margin-top: 55px;
+   color:black;
+   margin-right: 400px;
+}
+a { 
+    color:#4aaaa5;
+    text-decoration: none;
+}
+
+body {
+    position: static;
+}
+.jamaica1 {
+    margin-left: 2px;
+    margin-top: 96px;
+    font-size: 15.8px;
+}
+
+h3 {
+    border: 10px solid #4aaaa5;
+    color: white;
+    background: #4aaaa5;
+    position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    width: 180px;
+    
+}
+
+.pic2 {
+    float: right;
+}
+.pic3 {
+    clear: both;
+    margin-bottom:  40pxpx;
+   
+}
+
+.pic4 {
+    float: right;
+    
+}
+.pic5 {
+    margin-top: 60px;
+}
+.jamaica2 {
+    border: 2px solid black;
+}
+img.jamaica2 {
+    margin-top:-10px;
+}
+
+
+@media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    
+    h1 { 
+        font-size: 15px;
+         position: static;
+         margin-left: 0px;
+         
+         margin-bottom: -10px;
+         
+         
+         
+    
+    }
+    
+   .Links { 
+       float: left;
+       margin-right: 0px;
+       margin-left: 90px;
+       width: 40%;
+      
+       
+   }
+
+    .form { 
+        height: 980px;
+    }
+
+    h3 {
+        z-index: 2;
+        margin-top: 20%;
+        position: absolute;
+        border: 1px solid #4aaaa5;
+        color: white;
+        background: #4aaaa5;
+        width: 41%;
+    }
+    /* Animation */
+@keyframes top {
+    from {color: darkblue;}
+    to {color:  orangered;}
+}
+}

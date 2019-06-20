@@ -1,0 +1,121 @@
+.name  {
+    width: 21%;
+    background-color: #4aaaa5;
+    height: 70px;
+    margin-bottom: 0px;
+    margin-left: 16%;
+    
+    
+    
+}
+
+
+.jumbotron { 
+    
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+    width: 960px;
+    margin-top: 50px;
+    border: 5px solid #dddddd;
+    animation-name: top;
+    animation-duration: 5s;
+  
+}
+nav { 
+    width:30%;
+    margin-top: 0px;
+    float: right;
+    margin-bottom: 0px;
+    margin-left: 13%;
+    clear: both;
+    height: 70px;
+}
+
+.container {
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+    width: 960px;
+    
+    border: 5px solid #dddddd;
+    animation-name: top;
+    animation-duration: 5s;
+    
+   
+}
+
+body {
+    background-image: url("dark-grey-terrazzo.png");
+    height: 990px;
+    border: 5px solid #dddddd;
+ 
+    
+   
+}
+
+
+div.text {
+    background-color:#ffffff;
+    margin-left: 14%;
+    display: inline-block;
+    margin-top: 100px;
+    width:960px;
+    padding:10px;
+    border: 5px solid #dddddd;
+}
+
+
+img {
+    float: left;
+    margin-left:10px;
+    margin-right: 10px;
+}
+h2 { 
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    font-family: sans-serif;
+}
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    height: 50px;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+h6 {
+    text-align: center;
+    margin-top: 10px;
+  
+    
+}
+@media screen and (max-width: 1000px) {
+    
+    h1 { 
+        font-size: 20px;
+         /* Background image will change */
+    
+    }
+    body { 
+        background-image: url("wheat.png")
+    }
+
+    img { background: image("IMG_0416.JPG");
+        z-index: 6;
+    }
+    /* Animation */
+@keyframes top {
+    from {color: darkblue;}
+    to {color:  orangered;}
+}
+    
+
+
+
+}
